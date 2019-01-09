@@ -60,10 +60,7 @@ final BasicDataSource connectionPool;
 	   <td><input type="text" name="p_price" value="<%out.print(rs.getInt("price"));%>" /></td>
 	   <td><input type="text" name="p_quant" /></td>
 	   </tr>
-	   
-	   
-       
-        <%
+  <%
 }
 	
 	
