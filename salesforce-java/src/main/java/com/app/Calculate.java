@@ -111,7 +111,7 @@ public class Calculate extends HttpServlet {
 			  System.out.println("In try");
 			  
 			System.out.println("done connection");
-			String insertTableSQL = "INSERT INTO salesforce.product_entry__c (product_name__c,quantity__c,total_cost__c) VALUES(?,?,?)";
+			String insertTableSQL = "INSERT INTO salesforce.product_entry__c(product_name__c,quantity__c,total_cost__c) VALUES(?,?,?)";
 			PreparedStatement preparedStatement = connection.prepareStatement(insertTableSQL);
 			
 			for (int i=0; i<products.length; i++)
