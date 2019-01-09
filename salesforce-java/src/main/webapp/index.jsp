@@ -76,7 +76,6 @@ while(rs1.next())
 
 %>
     <tr>
-	   <td><input type="checkbox" name="p_check"/></td>
 	   <td><input type="text" name="p_id" value="<%out.print(rs1.getString("product_id__C"));%>" /></td>
 	   <td><input type="text" name="p_name" value="<%out.print(rs1.getString("product_name__C"));%>" /></td>
 	   <td><input type="text" name="p_price" value="<%out.print(rs1.getInt("price__C"));%>" /></td>
